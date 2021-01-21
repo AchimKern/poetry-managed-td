@@ -46,7 +46,7 @@ The `.Tox` attribute is defined in the packages `init.py`. Just like the `.Folde
 
 
 ## using touch package manager 
-On the `/demo/TPM` > Dependencies tab, under "Dependency" make sure its says "sphinx_rtd_theme" and press the  Add button. This will install the new dependencies in a background thread (This can take a while)
+On the `/demo/TPM` > Dependencies folder, under "Dependency" make sure its says "sphinx_rtd_theme" and press the  Add button. This will install the new dependencies in a background thread (This can take a while)
 
 When the textport says `thread <<< TPM.add` its finished and you can look into pyproject.toml which now lists sphinx-rtd-theme as a dependency. 
   
@@ -59,9 +59,8 @@ Lets quickly use our new sphinx dependency and build the pySubprocess COMP docum
 
 If this would be a project you would now just commit your new pyproject.toml and the next time you / anyone starts your file poetry will make sure you have all dependencies installed. 
 
-If you are creating a tox package, then you would need to create and upload those to pypi or any custom python package repository.
-
-!THIS IS UNTESTED ON OTHER ACOUNTS!
+If you are creating a tox package, then you would need to create and upload those to pypi or any custom python package repository. As you can't publish to my pypi repo, you need to rename the pysubprocess-op. On the `/demo/TPM` > Project folder change the `Name` parameter to `pysubprocess-op-yourName` and then click `Init / Update` button
+In the filesystem, change `pysubprocess_op` fodler to `pysubprocess_op_yourName` (not sure why one needs to be - and one a :)
 
 Go to `/demo/TPM` > `Setup` page and under `Alt.Repos` select "testpypi" from dropDown for the Name and URL parameters. Then fill in your testpypi user name (not email) and pw. Then click add. 
 
@@ -69,12 +68,16 @@ Now switch to the `Release` page and click on `bump version` and the on `build`
 
 Now select `testpypi` in the Repo parameter and click `publish component` and hopefully this tox package (pysubprocess-op) will be in your testpypi account (not sure if this will generate a name conflict with my pysubprocess-op)
 
+Beware that it takes testpypi 10-15 min for your new release to be avaible for general use
+
 If you forked the repo you can also try the `publish git`button to commit your changes 
 
 ## What is NOT working but hightly usefull
 editable installs:https://forum.derivative.ca/t/bug-editable-installs-pip-e/142448
-so you can develop tox packages while developing your projects without always releasing 
+so you can develop tox packages while developing your projects without always releasing. Basically it will install a "package pointer file" into site-packages and "pip install" / "poetry add" will read the actual folder location and install from there
 
 
+## Ideas
 
+Derivative hosts a TD package repo (so we don't polute pypi with tox packages), studios can locally host their own package repo for private 
 
