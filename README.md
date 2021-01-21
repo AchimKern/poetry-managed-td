@@ -76,7 +76,7 @@ If you forked the repo you can also try the `Publish Git`button to commit your c
 
 ## What is NOT working but would be very useful:
 editable installs:https://forum.derivative.ca/t/bug-editable-installs-pip-e/142448
-so you could develop tox packages while developing your projects without always releasing. asically it will install a "package pointer file" into site-packages and "pip install" / "poetry add" will read the actual folder location and install from there 
+so you could develop tox packages while developing your projects without always releasing. Basically it will install a "package pointer file" into site-packages and "pip install" / "poetry add" will read the actual folder/git location and install from there 
 
 ## Ideas
 
