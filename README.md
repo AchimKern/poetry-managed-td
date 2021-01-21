@@ -64,6 +64,9 @@ If you are creating a tox package, then you would need to create and upload thos
 
 !THIS IS UNTESTED ON OTHER ACOUNTS!
 
+As you can't publish to my pypi repo, you need to rename the pysubprocess-op. On the `/demo/TPM` > Project folder change the `Name` parameter to `pysubprocess-op-yourName` and then click `Init / Update` button
+
+In the filesystem, change `pysubprocess_op` fodler to `pysubprocess_op_yourName` (not sure why one needs to be - and one a _ )
 
 In TD go to the `/demo/TPM` COMP  `Setup` page and under `Alt.Repos` select "testpypi" from the dropdown menu for the Name and URL parameters. Then fill in your testpypi user name (not email) and password. Then click the `Add` pulse button. 
 
@@ -71,12 +74,16 @@ Now switch to the `Release` page and click on `Bump Version` and then on `Build`
 
 Now select `testpypi` in the Repo parameter and click `Publish component` and hopefully this tox package (pysubprocess-op) will now be in your testpypi account (not sure if this will generate a name conflict with my pysubprocess-op)
 
+Beware that it takes testpypi 10-15 min for your new release to be avaible for general use
+
 If you forked the repo you can also try the `Publish Git`button to commit your changes 
 
 ## What is NOT working but would be very useful:
 editable installs:https://forum.derivative.ca/t/bug-editable-installs-pip-e/142448
-so you could develop tox packages while developing your projects without always releasing 
+so you could develop tox packages while developing your projects without always releasing. asically it will install a "package pointer file" into site-packages and "pip install" / "poetry add" will read the actual folder location and install from there 
 
+## Ideas
 
+Derivative hosts a TD package repo (so we don't polute pypi with tox packages), studios can locally host their own package repo for private 
 
 
