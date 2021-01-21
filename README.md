@@ -1,7 +1,13 @@
-This is a (windows only) proof of concept of a Touch Package Manager (TPM). I currently don't have the time to transform this into a ptouction ready tool.
+This is a (windows only) proof of concept of a Touch Package Manager (TPM). I currently don't have the time to transform this into a production ready tool.
+This repo is intended o support the RFE for a native PackageManager for TouchDesigner. See https://forum.derivative.ca/t/rfe-integrate-poetry-package-manager-with-td/168073
 
 
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
+
+Key features:
+* proper python dependency management for your TD project.  Any client / coworker opening a .toe project 6 months from now would get those exact same package versions  specified when delivering the project.
+
+* a production ready tox repository with tox dependency management  
 
 In this case TPM manages a pysubprocess COMP, an utility COMP that allows you to easily start multiple python subprocesses. Internally TPM uses the same pysubprocess COMP to control poetry and git.  
 
