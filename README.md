@@ -5,11 +5,11 @@ This repo is intended o support the RFE for a native PackageManager for TouchDes
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
 
 Key features:
-* proper python dependency management for your TD project.  Any client / coworker opening a .toe project 6 months from now would get those exact same package versions  specified when delivering the project.
+* proper python packages/dependency management for your TD project: Any client / coworker opening a .toe project 6 months from now would get the exact same package versions specified when delivering the project.
 
-* a production ready tox repository with tox dependency management  
+* versioned components/tox with dependency management using a production ready backend like pypi (or any custom pypiserver). No need to reinvert the wheel ;)
 
-In this case TPM manages a pysubprocess COMP, an utility COMP that allows you to easily start multiple python subprocesses. Internally TPM uses the same pysubprocess COMP to control poetry and git.  
+In this example TPM manages pysubprocess-op, an utility COMP that allows you to easily start multiple python subprocesses. Internally TPM uses the same pysubprocess COMP to control poetry and git.
 
 ## Installation
 poetry via powershell 
