@@ -1,10 +1,8 @@
-This is a (windows only) proof of concept of a Touch Package Manager (TPM). I currently don't have the time to transform this into a production ready tool.
-This repo is intended o support the RFE for a native PackageManager for TouchDesigner. See https://forum.derivative.ca/t/rfe-integrate-poetry-package-manager-with-td/168073
-
-
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
+This is a (windows only) proof of concept of a Touch Package Manager (TPM). I currently don't have the time to transform this into a production ready tool.
+This repo is intended to support the RFE for a native PackageManager for TouchDesigner. See https://forum.derivative.ca/t/rfe-integrate-poetry-package-manager-with-td/168073
 
-Key features:
+#### Key features:
 * proper python packages/dependency management for your TD project: Any client / coworker opening a .toe project 6 months from now would get the exact same package versions specified when delivering the project.
 
 * versioned components/tox with dependency management using a production ready backend like pypi (or any custom pypiserver). No need to reinvert the wheel ;)
