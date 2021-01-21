@@ -1,6 +1,4 @@
-Likely won't work on OSX
-
-This is just a proof of concept !
+This is a (windows only) proof of concept ! You need to clone the repo, downloading zip won't work
 
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
 
