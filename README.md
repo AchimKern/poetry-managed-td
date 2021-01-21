@@ -1,8 +1,9 @@
-This is a (windows only) proof of concept ! 
+This is a (windows only) proof of concept of a Touch Package Manager (TPM). I currently don't have the time to transform this into a ptouction ready tool.
+
 
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
 
-In this case TPM manages a pysubprocess COMP, a utility COMP that allows you to easily start multiple python subprocesses. Internally TPM uses the same pysubprocess COMP to control poetry 
+In this case TPM manages a pysubprocess COMP, an utility COMP that allows you to easily start multiple python subprocesses. Internally TPM uses the same pysubprocess COMP to control poetry and git.  
 
 ## Installation
 poetry via powershell 
@@ -82,4 +83,4 @@ so you could develop tox packages while developing your projects without always 
 
 Derivative hosts a TD package repo (so we don't polute pypi with tox packages), studios can locally host their own package repo for private 
 
-
+TouchDesigneruses pyproject.toml as it's central project configuration tool (e.g. project.paths, ...)
