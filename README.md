@@ -2,7 +2,7 @@ This is a (windows only) proof of concept ! You need to fork/clone the repo, dow
 
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
 
-In this case TPM mananges a pysubprocess COMP, a utility COMP that allows you to easily start multiple python subprocesses. It supports non blocking re-direction of stdout/stderr to TD textport as well as callbacks.
+In this case TPM mananges a pysubprocess COMP, a utility COMP that allows you to easily start multiple python subprocesses. Internally TPM uses the same pysubprocess COMP to control poetry 
 
 ## Installation
 poetry via powershell 
@@ -12,7 +12,7 @@ poetry via powershell
 
 
 ## Configuration
-In `pysubprocess_op.bat` we add the `current dir` and the `.venv\Lib\site-packages` to PYTHONPATH and then ensure that the virtual env will be created inside our project folder  `CALL poetry config virtualenvs.in-project true` 
+In `pysubprocess_op.bat` we add the `current dir` and the `.venv\Lib\site-packages` folders to PYTHONPATH and then ensure that the virtual env will be created inside our project folder  `CALL poetry config virtualenvs.in-project true` 
 
 Finally `install --no-dev` will look into `pyproject.toml` for any additional repos besides pypi
 
