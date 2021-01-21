@@ -75,6 +75,9 @@ Now select `testpypi` in the Repo parameter and click `publish component` and ho
 If you forked the repo you can also try the `publish git`button to commit your changes 
 
 ## What is NOT working but hightly usefull
-editable installs: 
+editable installs:https://forum.derivative.ca/t/bug-editable-installs-pip-e/142448
+so you can develop tox packages while developing your projects without always releasing 
+
+
 
 
