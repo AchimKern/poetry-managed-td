@@ -27,9 +27,6 @@ and install all dependencies
     python = "^3.7"
     touch-package-manager = "^0.4.0"
 
-    [tool.poetry.dependencies]
-    touch_package_manager = "^0.3.11"
-
 into  `projectFolder\.venv\Lib\site-packages`. 
 
 
