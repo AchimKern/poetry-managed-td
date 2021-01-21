@@ -1,4 +1,4 @@
-This is a (windows only) proof of concept ! You need to clone the repo, downloading zip won't work
+This is a (windows only) proof of concept ! You need to fork/clone the repo, downloading zip won't work
 
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
 
