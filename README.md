@@ -2,7 +2,7 @@ This is a (windows only) proof of concept ! You need to fork/clone the repo, dow
 
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
 
-In this case TPM mananges a pysubprocess COMP, a utility COMP that allows you to easily start multiple python subprocesses. Internally TPM uses the same pysubprocess COMP to control poetry 
+In this case TPM manages a pysubprocess COMP, a utility COMP that allows you to easily start multiple python subprocesses. Internally TPM uses the same pysubprocess COMP to control poetry 
 
 ## Installation
 poetry via powershell 
