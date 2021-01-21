@@ -1,5 +1,7 @@
 Likely won't work on OSX
 
+This is just a proof of concept !
+
 ### Demo repo for a poetry managed (TPM) touch designer project / component 
 
 In this case TPM mananges a pysubprocess COMP, a utility COMP that allows you to easily start multiple python subprocesses. It supports non blocking re-direction of stdout/stderr to TD textport as well as callbacks.
