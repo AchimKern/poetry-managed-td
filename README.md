@@ -66,7 +66,7 @@ TO get started you need to initially setup your credentials (one time). In TD go
 
 As you can't publish to my pypi repo, the quickst way to get started is to rename the pysubprocess-op. On the `/demo/TPM` > Project folder change the `Name` parameter to `pysubprocess-op-yourName` and then click `Init / Update` button. And in the filesystem, change `pysubprocess_op` folder to `pysubprocess_op_yourName` (not sure why one needs to be - and one a _ )
 
-Now switch to the `Release` page and click on `Bump Version` and then on `Build`
+Now switch to the `Release` page and click on `Bump Version` and then on `Build`. (There is currently no way to reset the version number)
 
 Then select `testpypi` in the Repo parameter and click `Publish component` and hopefully this tox package  will now be in your testpypi account 
 
