@@ -1,0 +1,26 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = [ "poetry>=0.12",]
+
+[tool.poetry]
+authors = [ "Achim Kern <kern.achim@gmail.com>",]
+description = "A TouchDesigner op to easily call non blocking subproces"
+documentation = "https://github.com/AchimKern/pysubprocess-op"
+homepage = "http://achimkern.de"
+keywords = [ "TouchDesigner",]
+license = "MIT"
+name = "pysubprocess_op"
+readme = "README.md"
+repository = "https://github.com/AchimKern/pysubprocess-op"
+version = "0.3.20"
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+
+[tool.poetry.dependencies]
+importlib-metadata = "^1.7.0"
+python = "^3.7"
+touch_package_manager = "^0.3.11"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
