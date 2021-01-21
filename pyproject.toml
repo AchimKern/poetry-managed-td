@@ -12,7 +12,7 @@ license = "MIT"
 name = "pysubprocess_op"
 readme = "README.md"
 repository = "https://github.com/AchimKern/pysubprocess-op"
-version = "0.3.23"
+version = "0.3.24"
 [[tool.poetry.source]]
 name = "testpypi"
 url = "https://test.pypi.org/simple/"
