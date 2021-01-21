@@ -59,14 +59,20 @@ Lets quickly use our new sphinx dependency and build the pySubprocess COMP docum
 
 
 ## Finalizing
+
 If this would be a project you would now just commit your new pyproject.toml and the next time you / anyone starts your file poetry will make sure you have all dependencies installed. 
 
-If you are creating a tox package, then you would need to create those and upload them to pypi or any custom python package repository.
+If you are creating a tox package, then you would need to create and upload those to pypi or any custom python package repository.
+
+!THIS IS UNTESTED ON OTHER ACOUNTS!
 
 Go to `/demo/TPM` > `Setup` page and under `Alt.Repos` select "testpypi" from dropDown for the Name and URL parameters. Then fill in your testpypi user name (not email) and pw. Then click add. 
 
 Now switch to the `Release` page and click on `bump version` and the on `build`
 
+Now select `testpypi` in the Repo parameter and click `publish component` and hopefully this tox package (pysubprocess-op) will be in your testpypi account (not sure if this will generate a name conflict with my pysubprocess-op)
+
+If you forked the repo you can also try the `publish git`button to commit your changes 
 
 ## What is NOT working but hightly usefull
 editable installs: 
