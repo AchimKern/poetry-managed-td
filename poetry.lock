@@ -31,7 +31,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "touch-package-manager"
-version = "0.4.1"
+version = "0.4.4"
 description = "Touch Designer Package Manager"
 category = "main"
 optional = false
@@ -39,7 +39,7 @@ python-versions = ">=3.7,<4.0"
 
 [package.dependencies]
 importlib-metadata = ">=1.7.0,<2.0.0"
-toml = ">=0.10.1,<0.11.0"
+toml = ">=0.10.2,<0.11.0"
 tomlkit = ">=0.6.0,<0.7.0"
 
 [package.source]
@@ -62,7 +62,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "96821bf55401f01098aecfba60fd4f438aeb13aca0f1767921737151fac33a40"
+content-hash = "e59b12d11dbbf8df4b4b4c011945cf70e39a9c288f0a291b8b78f2670af0b4cd"
 
 [metadata.files]
 importlib-metadata = [
@@ -78,8 +78,8 @@ tomlkit = [
     {file = "tomlkit-0.6.0.tar.gz", hash = "sha256:74f976908030ff164c0aa1edabe3bf83ea004b3daa5b0940b9c86a060c004e9a"},
 ]
 touch-package-manager = [
-    {file = "touch_package_manager-0.4.1-py3-none-any.whl", hash = "sha256:84819f702fabaf118268799bc537ccc80193f3eb126dcb234dd85bb2538076eb"},
-    {file = "touch_package_manager-0.4.1.tar.gz", hash = "sha256:e85e6ba3d408317eff36187fce3a6ef0650b96999267a2c8c41a71288c8285bc"},
+    {file = "touch_package_manager-0.4.4-py3-none-any.whl", hash = "sha256:bb2365630ea406d80577bf5d0e7f48c904261226db7336d2ec7b935af99c702c"},
+    {file = "touch_package_manager-0.4.4.tar.gz", hash = "sha256:3fe8896df6b13acba9d517ba8a9ed636640a91ec6e1470b1fa7c02501fdaff24"},
 ]
 zipp = [
     {file = "zipp-3.4.0-py3-none-any.whl", hash = "sha256:102c24ef8f171fd729d46599845e95c7ab894a4cf45f5de11a44cc7444fb1108"},
