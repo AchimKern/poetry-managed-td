@@ -76,7 +76,6 @@ Then select `testpypi` in the Repo parameter and click `Publish component` and h
 
 Beware that it takes testpypi 10-15 min for your new release to be avaible for general use
 
-If you forked the repo you can also try the `Publish Git`button to commit your changes 
 
 ## What is NOT working but would be very useful:
 editable installs:https://forum.derivative.ca/t/bug-editable-installs-pip-e/142448
